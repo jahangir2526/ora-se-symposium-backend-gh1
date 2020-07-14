@@ -27,8 +27,7 @@ A simple Stateless , Highly scalable Express Based REST API build on MERN Stack.
 
 
 Line added 1
-Line added 2
-Line added 3
+
 
 
 
