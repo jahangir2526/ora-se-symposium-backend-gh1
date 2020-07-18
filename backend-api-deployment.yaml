@@ -1,5 +1,5 @@
-apiVersion: v1
-kind: Service
+apiVersion: v11
+kind: Servicea
 metadata:
   name: ora-se-symposium-backend-service
   labels:
@@ -14,7 +14,7 @@ spec:
     app: $APP_NAME
 ---
 apiVersion: v1a
-kind: Deployment
+kind: Deploymenta
 metadata:
   name: ora-se-symposium-backend-service
 spec:
