@@ -15,7 +15,7 @@ spec:
   type: NodePort
 
 ---
-apiVersion: appss/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata: 
   name: ora-se-symposium-backend-service
