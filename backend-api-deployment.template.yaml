@@ -3,7 +3,7 @@ kind: Service
 metadata: 
   labels: 
     app: $APP_NAME
-  name: ora-se-symposium-backend-service
+  name: symposium-backend-service
 spec: 
   ports: 
     - 
@@ -18,7 +18,7 @@ spec:
 apiVersion: apps/v1
 kind: Deployment
 metadata: 
-  name: ora-se-symposium-backend-service
+  name: symposium-backend-deployment
 spec: 
   replicas: 4
   selector: 
