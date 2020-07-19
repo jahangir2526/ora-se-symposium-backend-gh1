@@ -18,7 +18,7 @@ module.exports = {
 };
 
 async function authenticate({ username, password }) {
-    var _username = username.toLowerCase();
+    var _username = username;
     const _user = await user.findOne({username: _username});
     var _loginCount = _user.loginCount;
     await user.findByIdAndUpdate(_user.id,{$inc:{'loginCount':1}});
@@ -44,7 +44,7 @@ async function getById(id) {
 
 async function create(userParam) {
     // validate
-    if (await user.findOne({ username: userParam.username.toLowerCase() })) {
+    if (await user.findOne({ username: userParam.username })) {
         throw 'username "' + userParam.username + '" is already taken';
     }
     const _user = new user(userParam);
