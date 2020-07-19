@@ -1,4 +1,4 @@
 {
-    "connectionString": "connectionString": "mongodb://alamdb-mongodb-replicaset-0.alamdb-mongodb-replicaset.ns-jahangir.svc.cluster.local,alamdb-mongodb-replicaset-1.alamdb-mongodb-replicaset.ns-jahangir.svc.cluster.local,alamdb-mongodb-replicaset-2.alamdb-mongodb-replicaset.ns-jahangir.svc.cluster.local:27017/se-symposium-backend?replicaSet=rs0&readPreference=secondaryPreferred",
+    "connectionString": "mongodb://alamdb-mongodb-replicaset-0.alamdb-mongodb-replicaset.ns-jahangir.svc.cluster.local,alamdb-mongodb-replicaset-1.alamdb-mongodb-replicaset.ns-jahangir.svc.cluster.local,alamdb-mongodb-replicaset-2.alamdb-mongodb-replicaset.ns-jahangir.svc.cluster.local:27017/se-symposium-backend?replicaSet=rs0&readPreference=secondaryPreferred",
     "secret": "OrAcLe@Se_SyMpoSiUm_2018_JaIpUr!"
 }
